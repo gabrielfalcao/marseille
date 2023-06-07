@@ -49,3 +49,8 @@ pub fn main() {
     println!("{}", modulate(stanza, &SS))
 }
 ```
+
+
+## Decoding
+
+...TK
