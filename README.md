@@ -24,12 +24,25 @@ Well, the CLI is really named `morsel`.
 
 ## Installing
 
-``` bash
+```bash
 make release
 ```
 
 ## Usage
 
-``` bash
+### command-line
+
+```bash
 morsel string
+```
+
+
+### Rust
+
+```rust
+use marseille::modulate;
+
+pub fn main() {
+    println!("{}", modulate("The first rule of the Fight Club is you do not talk about it".to_string(), &" "))
+}
 ```
