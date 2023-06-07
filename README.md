@@ -14,7 +14,7 @@
 ```
 
 Marseille is a plaintext-to-morse-code encoding library and command-line
-tool.
+tool ('aka morsel).
 
 Well, the CLI is really named `morsel`, primarily because it rhymes, OF COURSE.
 
