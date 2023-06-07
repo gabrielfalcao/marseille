@@ -16,7 +16,7 @@
 Marseille is a plaintext-to-morse-code encoding library and command-line
 tool.
 
-Well, the CLI is really named `morsel`.
+Well, the CLI is really named `morsel`, primarily because it rhymes, OF COURSE.
 
 > Don't worry if you don't get do yourself a favor and find a restaurant
 > that serves morsel mushrooms and feel a true delight.
