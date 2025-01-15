@@ -1,6 +1,6 @@
 [package]
 name = "marseille"
-version = "0.0.0"
+version = "0.0.1"
 edition = "2021"
 authors = [
         "Gabriel Falcão <gabriel@nacaolivre.org>",
@@ -9,19 +9,25 @@ documentation = "https://docs.rs/marseille"
 description = "Marseille is a plaintext-to-morse-code encoding library and command-line tool."
 readme = "README.md"
 license = "Apache-2.0"
+autobenches = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clap = { version = "4.3.2", features = ["derive"] }
+clap = { version = "4.5.26", features = ["derive"] }
 wasm-bindgen = "0.2.86"
 
 
 [lib]
 name = "marseille"
 path = "src/lib.rs"
+doctest = false
+bench = false
+test = false
 
 [[bin]]
 name = "morsel"
 path = "src/mushroom.rs"
 bench = false
+test = false
+doctest = false
