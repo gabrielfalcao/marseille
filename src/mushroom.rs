@@ -1,5 +1,5 @@
 use clap::{Parser};
-use marseille::modulate;
+use marseille::alphabet2morse;
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -11,5 +11,5 @@ struct Cli {
 
 pub fn main() {
     let cli = Cli::parse();
-    println!("{}", modulate(cli.plaintext.clone(), &" "))
+    println!("{}", alphabet2morse(cli.plaintext.clone(), &" "))
 }
